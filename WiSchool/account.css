@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section h1{
+    text-align: center;
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+section {
+    max-width: 25rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+section form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    row-gap: 1rem;
+}
+section form input {
+    width: 100%;
+    height: 3rem;
+    padding-inline: 1.5rem;
+    border: 1px solid #000;
+    border-radius: 0.75rem;
+}
+.submit-btn {
+    background-color: #09b451;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+}
+section form input::placeholder {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
